@@ -12,7 +12,7 @@ public class Aula1 {
 		
 		soma = n1 + n2;
 		
-		System.out.println("O valor é: " + soma);
+		System.out.print("O valor é: " + soma);
 		
 		
 	}
