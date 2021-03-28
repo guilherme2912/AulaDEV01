@@ -13,7 +13,7 @@ public class UrnaEletronica {
 		do {
 			votos.operacaoMesario = Integer.valueOf(JOptionPane.showInputDialog("Digite a opção: \n" + impressao.iniciaEleicao + impressao.encerraEleicao));
 			
-			if (votos.operacaoMesario == 1) {
+			if (votos.operacaoMesario == 1) {	
 				votos.operacaoVoto = Integer.valueOf(JOptionPane.showInputDialog("   ------Candidatos----- \n" + candidato.candidato1 + candidato.candidato2 + candidato.candidato3 + candidato.candidato4 + candidato.candidato5));
 				if (votos.operacaoVoto == 1) {
 					votos.totalVotoAngela++;
