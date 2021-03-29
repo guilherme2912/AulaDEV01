@@ -11,11 +11,11 @@ public class MaiorValor {
 		int maiorValor = 0;
 
 		
-		System.out.println("Maior valor: " + qualOMaiorValor(valor1, valor2, valor3, maiorValor));
+		System.out.println("Maior valor: " + procurarOMaiorValor(valor1, valor2, valor3, maiorValor));
 
 	}
 	
-	public static int qualOMaiorValor(int valor1, int valor2, int valor3, int maiorValor) {
+	public static int procurarOMaiorValor(int valor1, int valor2, int valor3, int maiorValor) {
 		if(valor1>valor2 && valor1>valor3) {
 			maiorValor = valor1;
 		} else if (valor2>valor3 && valor2>valor1) {

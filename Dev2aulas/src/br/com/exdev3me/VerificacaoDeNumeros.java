@@ -6,18 +6,23 @@ public class VerificacaoDeNumeros {
 
 	public static void main(String[] args) {
 		
-		Double valor1 = Double.valueOf(JOptionPane.showInputDialog("Qual o primeiro Valor? "));
-	
+		Double valor1 = Double.valueOf(JOptionPane.showInputDialog("Qual o desejado para consulta? "));
 		
-		if (valor1 < 0) {
-			System.out.println("Número Negativo");
-			
-		} else {
-			System.err.println("Número Positivo");
-		}
-		
+		indicarValorNegativoPosito(valor1);
 		
 
 	}
+	
+	public static double indicarValorNegativoPosito (Double valor) {
+		if (valor < 0) {
+			System.out.println("-1");
+			
+		} else {
+			System.err.println("1");
+		}
+		
+		return valor;
+	}
+	
 
 }
